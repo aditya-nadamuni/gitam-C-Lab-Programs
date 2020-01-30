@@ -1,0 +1,23 @@
+#include<stdio.h>
+main()
+{
+	printf("%3d",10);
+	printf("\n%5d",10);
+	printf("\n%10d",10);
+	printf("\n%10.3f",2.3456);
+	printf("\n%6.2f",2.3456);
+	printf("\n%5.1f",2.3456);
+	printf("\n%1d",10);
+	printf("\n%7.2f",5.4321);
+	printf("\n%.2f",5.4321);
+	printf("\n%.9f",5.4321);
+	printf("\n%06.1f",5.5);
+	printf("\n%-+6.1f",5.5);
+	printf("\n%+6.1f",5.5);
+	printf("\n%0+6.1f",5.5);
+	printf("\n%s","hello");
+	printf("\n%10s","hello");
+	printf("\n%-10s","hello");
+	printf("\n%8.4s","hell0");
+	printf("\n%-8.4s","hello");
+}
